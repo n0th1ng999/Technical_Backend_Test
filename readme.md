@@ -80,18 +80,19 @@ JWT_DURATION_IN_HOURS=24  # Expiration time for JWT tokens (in hours)
   - Enables **withdrawal** from the wallet
   - Allows **deposit** to the wallet
 
-## Future Enhancements
-### Frontend Development
-- [ ] Implement betting UI
-- [ ] Collect winnings via frontend
-- [ ] Display wallet balance 
-
 ### Configurability
 - [x] Adjustable game settings:
   - Rigging odds (force a specific dice outcome)
   - Winning multipliers
   - Connection timeouts
   - Server port configuration
+  
+## Future Enhancements
+### Frontend Development
+- [ ] Implement betting UI
+- [ ] Collect winnings via frontend
+- [ ] Display wallet balance 
+
 
 ---
 This README serves as an overview of the backend test project for Vertsa Play. Contributions and improvements are welcome!
