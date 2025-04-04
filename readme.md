@@ -46,8 +46,10 @@ JWT_DURATION_IN_HOURS=24  # Expiration time for JWT tokens (in hours)
 ### Wallet Management
 - [x] Wallet endpoint
   - Retrieves wallet balance on first request
-  - Updates balance after each play request
-  - Updates balance after an end play request
+  - Updates balance after each "play" request
+  - Updates balance after an "end play" request
+  - Updates balance after a "Wallet Withdraw" request
+  - Updates balance after a "Wallet Deposit" request
 
 ### Game Mechanics
 - [x] **Play - Bet on the dice game**
@@ -86,7 +88,7 @@ JWT_DURATION_IN_HOURS=24  # Expiration time for JWT tokens (in hours)
   - Winning multipliers
   - Connection timeouts
   - Server port configuration
-  
+
 ## Future Enhancements
 ### Frontend Development
 - [ ] Implement betting UI
